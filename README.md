@@ -21,15 +21,15 @@ This repository provides a complete pipeline for clustering music genres without
 
 ## 📂 Repository Structure
 
-
-├── data/           # Raw audio samples, extracted spectrograms, and textual metadata
-├── notebooks/      # Jupyter notebooks for Exploratory Data Analysis (EDA) and pipeline testing
-├── results/        # Exported latent space visualizations (t-SNE/PCA) and clustering metric reports
-├── src/            # Modular source code
-│   ├── model/      # Beta-VAE architecture and loss functions
-│   ├── cluster/    # K-Means, Agglomerative, and DBSCAN implementations
-│   └── evaluate/   # Metric calculations and plotting utilities
-└── requirements.txt
+  Music-Genre-Clustering-VAE
+ ┣ 📂 data/        # Raw audio samples, spectrograms, and textual metadata
+ ┣ 📂 notebooks/   # Jupyter notebooks for Exploratory Data Analysis (EDA)
+ ┣ 📂 results/     # Exported visualizations (t-SNE/PCA) and metric reports
+ ┣ 📂 src/         # Modular source code
+ ┃ ┣ 📂 model/     # Beta-VAE architecture and loss functions
+ ┃ ┣ 📂 cluster/   # K-Means, Agglomerative, and DBSCAN implementations
+ ┃ ┗ 📂 evaluate/  # Metric calculations and plotting utilities
+ ┗ 📜 requirements.txt
 
 
 ## 🛠️ Installation & Usage
